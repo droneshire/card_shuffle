@@ -95,7 +95,7 @@ void execute_shuffle(int deck_size) {
 		while(!deck_card_to_table(deck)) {
 			deck_card_to_back(deck);
 		}
-		++(deck->num_rounds)
+		++(deck->num_rounds);
 		// only print out deck info if the deck size is reasonably small
 		if (deck_size < 20) {
 			printf("Round %4ld: ", deck->num_rounds);
