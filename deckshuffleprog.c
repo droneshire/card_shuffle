@@ -122,7 +122,7 @@ void show_help() {
 	printf("This program analyzes a specified positive numbered deck size to\n");
 	printf("calculate how many rounds it would take to perform a cyclical\n");
 	printf("shuffle sequence (1 on table next on bottom of deck)\n");
-	printf("before the original ordered deck reappears.\n\n");
+	printf("before the original ordered deck reappears on the table.\n\n");
 
 	printf("Usage: deckshuffleprog --num-cards <size of deck>\n");
 	printf("       deckshuffleprog --help\n\n");
